@@ -1,9 +1,0 @@
-uuid: cf3d5dee-e225-4b09-ad80-b2857ce7ae63
-langcode: und
-status: true
-dependencies: {  }
-name: jothit
-vid: jothit
-description: 'Description of jothit'
-weight: 9
-new_revision: false
