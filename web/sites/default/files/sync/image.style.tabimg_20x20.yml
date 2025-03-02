@@ -1,0 +1,15 @@
+uuid: 867559ec-e01f-4a73-ae43-e782a35528e8
+langcode: en
+status: true
+dependencies: {  }
+name: tabimg_20x20
+label: tabimg(20X20)
+effects:
+  be8f3aa1-d10c-4628-b692-31a3428f42e1:
+    uuid: be8f3aa1-d10c-4628-b692-31a3428f42e1
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 20
+      height: 20
+      anchor: center-center
