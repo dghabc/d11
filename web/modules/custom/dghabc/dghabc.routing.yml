@@ -1,0 +1,25 @@
+dghabc.example:
+  path: '/dghabc/example'
+  defaults:
+    _title: 'Example'
+    _controller: '\Drupal\dghabc\Controller\DghabcController'
+  requirements:
+    _permission: 'access content'
+
+dghabc.help:
+  path: '/admin/help/dghabc'
+  defaults:
+    _title: 'Example'
+    _controller: '\Drupal\dghabc\Controller\DghabcController::dghabchelp'
+  requirements:
+    _permission: 'access content'
+
+
+
+dghabc.settings:
+  path: '/admin/config/system/settings'
+  defaults:
+    _title: 'dghabc seting'
+    _form: 'Drupal\dghabc\Form\SettingsForm'
+  requirements:
+    _permission: 'administer site configuration'

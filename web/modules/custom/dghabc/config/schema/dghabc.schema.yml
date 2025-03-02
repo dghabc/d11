@@ -1,0 +1,8 @@
+# Schema for the configuration files of the dghabc module.
+dghabc.settings:
+  type: config_object
+  label: 'dghabc settings'
+  mapping:
+    example:
+      type: string
+      label: 'Example'

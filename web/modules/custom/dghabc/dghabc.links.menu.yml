@@ -1,0 +1,6 @@
+dghabc.settings:
+  title: dghabc seting
+  description: dghabc admin setting
+  parent: system.admin_config_system
+  route_name: dghabc.settings
+  weight: 10

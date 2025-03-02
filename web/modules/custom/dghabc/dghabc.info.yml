@@ -1,0 +1,8 @@
+name: 'dghabc'
+type: module
+description: 'my frist module'
+package: Custom
+core_version_requirement: ^10 || ^11
+dependencies:
+  - drupal:block
+configure: dghabc.admin_setting

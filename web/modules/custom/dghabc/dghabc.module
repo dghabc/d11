@@ -1,0 +1,28 @@
+<?php
+
+/**
+ * @file
+ * Primary module hooks for dghabc module.
+ */
+
+/**
+ * Implements hook_cron().
+ */
+function dghabc_cron(){
+  $messenger_service = \Drupal::service('messenger');
+  $messenger_service->addStatus(t('My frist module  was Status successfully.'));
+  $messenger_service->addError(t('My frist module  was Error successfully.'));
+  $messenger_service->addMessage(t('My frist module  was Message successfully.'));
+  $messenger_service->addWarning(t('My frist module  was Warning successfully.'));
+  $messenger_service->addError(t("test"));
+  /**
+   * @var Drupal\Core\Messenger\Messenger
+   */
+  $messenger_service = \Drupal::service('messenger');
+  $messenger_service->addMessage(t("dddd,"));
+  $messenger_service->addWarning(t("ddddddd"));
+
+  $messenger_service->addStatus("sss");
+  $messenger_service->addMessage("ss");
+
+}

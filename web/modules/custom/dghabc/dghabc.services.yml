@@ -1,0 +1,5 @@
+services:
+  dghabc.route_subscriber:
+    class: Drupal\dghabc\EventSubscriber\DghabcRouteSubscriber
+    tags:
+      - { name: event_subscriber }
