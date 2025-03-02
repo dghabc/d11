@@ -1,4 +1,4 @@
-uuid: f7657aa5-ef8f-4c34-94e9-bef9f6dac8b1
+uuid: 6a7f520f-d089-4d28-be7f-fff3c8c1f056
 langcode: en
 status: true
 dependencies:
@@ -6,7 +6,7 @@ dependencies:
     - file
     - user
 _core:
-  default_config_hash: blP1XdpU4RqVoA_8po7qnIokIbHB6DJt0lpilgY5ovM
+  default_config_hash: NYJWABHsIFg-cU-Qya8fiMuQSM4rirBEfPFqkgRtsKA
 id: files
 label: Files
 module: file
@@ -463,7 +463,7 @@ display:
           decimal: .
           separator: ','
           format_plural: true
-          format_plural_string: !!binary MSBwbGFjZQNAY291bnQgcGxhY2Vz
+          format_plural_string: !!binary QGNvdW50IHBsYWNlA0Bjb3VudCBwbGFjZXM=
           prefix: ''
           suffix: ''
         operations:

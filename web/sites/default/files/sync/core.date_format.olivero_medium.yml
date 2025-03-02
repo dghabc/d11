@@ -1,4 +1,4 @@
-uuid: 725e2f8b-218a-4d8b-92da-1caaf30cdc69
+uuid: 6ad9bdb3-e152-4c6d-b9d9-f165816296ba
 langcode: en
 status: true
 dependencies:
@@ -6,8 +6,8 @@ dependencies:
     theme:
       - olivero
 _core:
-  default_config_hash: Mt6cmxUbDZ9XxD6p25WQ8tj3_JcX8ylfcddwZc8gcAE
+  default_config_hash: z7ynTCss9wwEi8ojENJ08qx44RN6leI-tqoN2o5QzdE
 id: olivero_medium
 label: 'Olivero Medium'
 locked: false
-pattern: 'j  F,  Y'
+pattern: 'j F Y'
